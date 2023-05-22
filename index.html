@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksan Takım - Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent p-3 position-fixed w-100 navbar-dark z-1">
+        <div class="container-fluid">
+            <div class="logo-img">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/aksan-logo-white-tr.png" class="w-100" alt="">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Takım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kariyer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hizmet Noktalarımız</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero-img position-relative">
+            <p class="position-absolute takim fs-3 text-white">Takım</p>
+        </div>
+    </header>
+
+    <main class="mt-5 px-md-5 px-1">
+        <div class="container px-md-5 px-1">
+            <div class="row">
+                <div class="col-md-3 col-12 text-md-start text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link px-0 nav-baslik" href="">Hepsi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-0" href="">Ortaklar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-0" href="">Avukatlar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-0" href="">Danışmanlar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-0" href="">Stajyerler</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="col-12">
+                            <p class="nav-baslik">Detaylı Arama</p>
+                            <form action="#" class="d-flex flex-column gap-2 ps-2">
+                                <input type="text"
+                                    class="p-2 border-top-0 border-end-0 border-start-0 border-icin text-secondary"
+                                    placeholder="Ad">
+                                <input type="text"
+                                    class="p-2 border-top-0 border-end-0 border-start-0 border-icin text-secondary"
+                                    placeholder="Soyad">
+                                <input type="text"
+                                    class="p-2 border-top-0 border-end-0 border-start-0 border-icin text-secondary"
+                                    placeholder="Anahtar Kelime">
+                                <select class="p-2 border-top-0 border-end-0 border-start-0 border-icin text-secondary">
+                                    <option>Hizmet Noktası</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                </select>
+                                <select class="p-2 border-top-0 border-end-0 border-start-0 border-icin text-secondary">
+                                    <option>Çalışma Alanı</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                </select>
+                                <select class="p-2 border-top-0 border-end-0 border-start-0 border-icin text-secondary">
+                                    <option>Endüstri</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                    <option>Lorem.</option>
+                                </select>
+                                <button
+                                    class="btn w-25 m-auto border border-top-0 border-end-0 border-start-0">Ara</button>
+                            </form>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <p class="nav-baslik">Alfabetik Arama</p>
+                            <p class="letter">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/1802a0a5.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Anet Biçer</p>
+                                </a>
+                                <p>Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/26a65cfe.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Ömer Çelik</p>
+                                </a>
+                                <p>Yönetici Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/2c0e98cf.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Bengisu Kadı</p>
+                                </a>
+                                <p>Avukat</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/1802a0a5.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Anet Biçer</p>
+                                </a>
+                                <p>Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/26a65cfe.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Ömer Çelik</p>
+                                </a>
+                                <p>Yönetici Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/2c0e98cf.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Bengisu Kadı</p>
+                                </a>
+                                <p>Avukat</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/1802a0a5.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Anet Biçer</p>
+                                </a>
+                                <p>Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/26a65cfe.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Ömer Çelik</p>
+                                </a>
+                                <p>Yönetici Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/2c0e98cf.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Bengisu Kadı</p>
+                                </a>
+                                <p>Avukat</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/1802a0a5.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Anet Biçer</p>
+                                </a>
+                                <p>Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/26a65cfe.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Ömer Çelik</p>
+                                </a>
+                                <p>Yönetici Ortak</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 px-sm-2 px-0">
+                            <div class="kisiler text-center">
+                                <a href="" class="text-decoration-none text-black text-center">
+                                    <img src="./img/2c0e98cf.jpg" class="w-100" alt="">
+                                    <p class="fs-5 mt-3">Bengisu Kadı</p>
+                                </a>
+                                <p>Avukat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="mt-5 px-md-5 px-1 footer-renk py-5">
+        <div class="container px-md-5 px-1">
+            <div class="row">
+                <div class="col-md-4 col-12 text-md-start text-center">
+                    <div>
+                        <p class="text-white">En Son Haberler</p>
+                        <a href="" class="text-white text-decoration-none">Zeynep Aksan Operasyon Yönetici Olarak...</a>
+                        <p class="text-white mt-3">Aksan Hukuk Bürosu olarak, Av. Zeynep Aksan’ın ofisimizde Operasyon
+                            Yöneticisi olarak göreve başladığını duyurmaktan mut...</p>
+                        <a href="" class="text-white text-decoration-none"><i class="fa-solid fa-calendar-days"></i>
+                            27.10.22</a>
+                    </div>
+                    <div class="mt-5">
+                        <a href="" class="text-white text-decoration-none">Önemli Bilgilendirme</a>
+                        <p class="text-white mt-3">Hukuk büromuzun telefon numarası 02122498383 olup bu numara dışında kendini büromuzla irtibatlı göstererek aramalar yapa...</p>
+                        <a href="" class="text-white text-decoration-none"><i class="fa-solid fa-calendar-days"></i>
+                            16.08.22</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-md-start text-center">
+                <div class="row">
+                    <div class="col-xl-6 col-12 d-flex flex-column">
+                        <a href="" class="footer-nav footer-baslik" >HAKKIMIZDA</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                        <a href="" class="footer-nav">Vizyonumuz</a>
+                        <a href="" class="footer-nav">Misyonumuz</a>
+
+                        <a href="" class="footer-nav footer-baslik">HİZMET NOKTALARI</a>
+                        <a href="" class="footer-nav footer-baslik" >İLETİŞİM</a>
+                    </div>
+                    <div class="col-xl-6 col-12 d-flex flex-column">
+                        <a href="" class="footer-nav footer-baslik" >Takım</a>
+                        <a href="" class="footer-nav">Ortaklar</a>
+                        <a href="" class="footer-nav">Avukatlar</a>
+                        <a href="" class="footer-nav">Danışmanlar</a>
+                        <a href="" class="footer-nav">Stajyerler</a>
+
+                        <a href="" class="footer-nav footer-baslik">KARİYER</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-4 d-md-block d-none">
+                    <div class="row">
+                        <div class="col-12">
+                        <a href="" class="footer-nav footer-baslik" >HİZMETLER</a>
+                        </div>
+                    <div class="col-xl-6 col-12 d-flex flex-column">
+                        <a href="" class="footer-nav">Aile Hukuku</a>
+                        <a href="" class="footer-nav">Arabuluculuk Hizmeti</a>
+                        <a href="" class="footer-nav">Bankacılık ve Finans</a>
+                        <a href="" class="footer-nav">Basın ve Medya</a>
+                        <a href="" class="footer-nav">Bilişim Hukuku</a>
+                        <a href="" class="footer-nav">Birleşme ve Devralmalar</a>
+                        <a href="" class="footer-nav">Blockchain Teknolojileri</a>
+                        <a href="" class="footer-nav">Ceza Hukuku</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                        <a href="" class="footer-nav">Aile Hukuku</a>
+                        <a href="" class="footer-nav">Arabuluculuk Hizmeti</a>
+                        <a href="" class="footer-nav">Bankacılık ve Finans</a>
+                        <a href="" class="footer-nav">Basın ve Medya</a>
+                        <a href="" class="footer-nav">Bilişim Hukuku</a>
+                        <a href="" class="footer-nav">Birleşme ve Devralmalar</a>
+                        <a href="" class="footer-nav">Blockchain Teknolojileri</a>
+                        <a href="" class="footer-nav">Ceza Hukuku</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                    </div>
+                    <div class="col-xl-6 col-12 d-flex flex-column">
+                        <a href="" class="footer-nav">Aile Hukuku</a>
+                        <a href="" class="footer-nav">Arabuluculuk Hizmeti</a>
+                        <a href="" class="footer-nav">Bankacılık ve Finans</a>
+                        <a href="" class="footer-nav">Basın ve Medya</a>
+                        <a href="" class="footer-nav">Bilişim Hukuku</a>
+                        <a href="" class="footer-nav">Birleşme ve Devralmalar</a>
+                        <a href="" class="footer-nav">Blockchain Teknolojileri</a>
+                        <a href="" class="footer-nav">Ceza Hukuku</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                        <a href="" class="footer-nav">Aile Hukuku</a>
+                        <a href="" class="footer-nav">Arabuluculuk Hizmeti</a>
+                        <a href="" class="footer-nav">Bankacılık ve Finans</a>
+                        <a href="" class="footer-nav">Basın ve Medya</a>
+                        <a href="" class="footer-nav">Bilişim Hukuku</a>
+                        <a href="" class="footer-nav">Birleşme ve Devralmalar</a>
+                        <a href="" class="footer-nav">Blockchain Teknolojileri</a>
+                        <a href="" class="footer-nav">Ceza Hukuku</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                        <a href="" class="footer-nav">Tarihçe</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-8 col-10 m-lg-0 m-auto">
+                    <p class="text-white fw-bold mt-4 fs-5">İrtibat Halinde Kalın</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control rounded-0 bg-transparent border-2 border-white text-white" placeholder="E-posta adresini yazınız">
+                        <button class="btn btn-dark rounded-0 bg-transparent border-2 border-white">Abone Ol</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-8 col-10 m-lg-0 m-auto d-flex justify-content-lg-start justify-content-center">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f478418874.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

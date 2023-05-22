@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo-img {
+    width: 250px;
+}
+
+.hero-img {
+    height: 320px;
+    width: 100%;
+    background: linear-gradient(rgb(2, 10, 32, .7), rgb(2, 10, 32, .7)), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.takim {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10px;
+    letter-spacing: 10px;
+}
+
+.border-icin {
+    border-color: lightgray;
+}
+
+.letter {
+    letter-spacing: 10px;
+}
+
+main .nav a {
+    color: gray;
+}
+
+.nav-baslik {
+    color: darkred!important;
+    font-weight: bold;
+}
+
+.footer-renk {
+    background-color: #010a20;
+    font-size: 12px;
+}
+
+.footer-nav {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    font-size: 11px;
+}
+
+.footer-baslik {
+    line-height: 35px;
+    font-size: 13px!important;
+}
+
+.form-control::placeholder {
+    color: gray;
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
